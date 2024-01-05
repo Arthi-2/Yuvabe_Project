@@ -9,6 +9,10 @@ int main() {
     else if(n>=10 && n<100) {
         printf("two digit");
     }
+    else if(n>=100 && n<1000)
+    {
+    	printf("Three digit");
+	}
     else{
         printf("an integer");
     }
